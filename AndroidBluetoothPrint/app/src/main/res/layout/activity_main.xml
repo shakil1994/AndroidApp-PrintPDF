@@ -6,31 +6,72 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <androidx.appcompat.widget.AppCompatButton
+    <Button
         android:id="@+id/btnPrint"
+        android:onClick="btnPrint"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Print Hello World"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnPrintImage"
+    <Button
+        android:id="@+id/btnPrintImages"
+        android:onClick="btnPrintImages"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Print Image"
+        android:text="Print images"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/btnPrint" />
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnPairUnpair"
+    <Button
+        android:visibility="gone"
+        android:id="@+id/btnPiarUnpair"
+        android:onClick="btnPiarUnpair"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/btnPrintImage" />
+        app:layout_constraintTop_toBottomOf="@id/btnPrintImages" />
+
+    <Button
+        android:id="@+id/btnCustomPrinter"
+        android:onClick="btnCustomPrinter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Custom printer (woosim)"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnPiarUnpair" />
+
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/btnPrint"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Print Hello World"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/btnPrintImage"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Print Image"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/btnPrint" />-->
+
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/btnPairUnpair"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/btnPrintImage" />-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

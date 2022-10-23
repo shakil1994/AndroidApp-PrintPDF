@@ -4,10 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Shakil/AndroidStudioProjects/PersonalProject/AndroidApp-PrintPDF/AndroidBluetoothPrint/app/src/main/res/layout/activity_main.xml" value="0.17074275362318841" />
+        <entry key="app/src/main/res/drawable/ic_driver_image.xml" value="0.1915" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.24010416666666667" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
